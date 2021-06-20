@@ -15,6 +15,9 @@ But today I want to talk about 2 of my favorite features:
 
 ### 64-bit
 The first and the biggest feature is - and boy, that's big one - it's 64-bit!!! 😍 This means - Visual Studio 2022 will no longer be limited to ~4gb of memory in the main `devenv.exe` process. 
+
+![Visual Studio 2022 G4-bit](./images/vs2022-64bit.png)
+
 In Microsoft's own words:
 
 > With a 64-bit Visual Studio on Windows, you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory.
@@ -34,7 +37,7 @@ In Visual Studio 2022, IntelliCode has gone one step further and not only will s
 * Similarly in the `foreach` loop, it know I'm going to append the `item` to the `StringBuilder` and writes `sb.Append(item)` for me.
 * Finally after the loop it knows I want to print it, so it prints using `Console.WriteLine` by calling `ToString()` on the `StringBuilder` reference `sb`.
 
-Cool, write!!!
+Cool, right!!!
 
 
 ## Conclusion
@@ -47,4 +50,4 @@ Let me know which all features ya'll are excited for.
 * Check out the [Official announcement](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/)
 * Download [Visual Studio 2022](https://visualstudio.microsoft.com/vs/preview/vs2022/) and try now.
 
-
+Happy Coding!
